@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- Dice que la página está hecha en HTML5 -->
+
+<!-- Madrid De la Cruz Valeria Dayana -->
+<!-- No.24308051250862  Grupo:5°J -->
+
+<html lang="es">
+<!-- Abre el trabajo y avisa que está en español -->
+
+<head>
+  <!-- Cosas que no se ven en la página -->
+  <meta charset="UTF-8"> <!-- Para que se vean bien las tildes y la ñ -->
+  <title>Horario Escolar</title> <!-- Nombre que sale en la pestaña arriba -->
+</head>
+
+<body>
+  <!-- Todo lo que sí se va a ver en la pantalla -->
+
+<!-- 'table border="1"' crea la tabla y el '1' le pone una línea de borde alrededor de las casillas -->
+  <table border="1">
+    
+    <!-- Fila del encabezado -->
+    <tr>
+<!-- 'th' crea una casilla de encabezado el texto sale centrado y en negrita -->
+      <!-- 'bgcolor' le cambia el color de fondo a esa casilla específica -->
+      <th bgcolor="lightblue">Hora</th>
+      <th bgcolor="lightblue">Lunes</th>
+      <th bgcolor="lightblue">Martes</th>
+      <th bgcolor="lightblue">Miércoles</th>
+      <th bgcolor="lightblue">Jueves</th>
+      <th bgcolor="lightblue">Viernes</th>
+    </tr>
+
+<!--PRIMER MODULO-->
+    <tr>
+      <!-- td es un cuadro normal para meter texto -->
+      <td>07:00 - 08:00</td>
+      <td>           </td>
+      <td bgcolor="PapayaWhip">Historia</td>
+      <td bgcolor="yellow">Apli.Administracion</td>
+      <td bgcolor="yellow">Apli.Administracion</td>
+      <td bgcolor="DarkTurquoise">Ingles 5</td>
+    </tr>
+
+<!--SEGUNDO MODULO-->
+    <tr>
+      <td>08:00 - 09:00</td>
+      <td>           </td>
+      <td bgcolor="yellow">Apli.Administracion</td>
+      <td bgcolor="PapayaWhip">Historia</td>
+      <td bgcolor="DarkTurquoise">Ingles 5</td>
+      <td bgcolor="PapayaWhip">Historia</td>
+    </tr>
+
+<!--TERCER MODULO-->
+    <tr>
+      <td>09:00 - 10:00</td>
+      <td bgcolor="DarkTurquoise">Ingles 5</td>
+      <td bgcolor="Violet">PROG M4S1</td>
+      <td bgcolor="Violet">PROG M4S1</td>
+      <td bgcolor="Violet">PROG M4S1</td>
+      <td bgcolor="Violet">PROG M4S1</td>
+    </tr>
+
+<!--CUARTO MODULO-->
+    <tr>
+      <td>10:00 - 10:50</td>
+      <td bgcolor="PaleGreen">Ciencias Naturales 5</td>
+      <td bgcolor="Violet">PROG M4S1</td>
+      <td bgcolor="DarkTurquoise">Ingles 5</td>
+      <td bgcolor="Violet">PROG M4S1</td>
+      <td bgcolor="Violet">PROG M4S1</td>
+    </tr>
+
+<!--QUINTO MODULO-->
+    <tr>
+      <!-- colspan="6" junta las 6 casillas en una sola y align="center" centra el texto -->
+      <td colspan="6" bgcolor="LightGray" align="center">RECESO</td>
+    </tr>
+
+<!--SEXTO MODULO-->
+    <tr>
+      <td>11:10 - 12:00</td>
+      <td bgcolor="Pink">PROG M4S2</td>
+      <td bgcolor="Pink">PROG M4S2</td>
+      <td bgcolor="PaleGreen">Ciencias Naturales 5</td>
+      <td bgcolor="Pink">PROG M4S2</td>
+      <td bgcolor="PaleGreen">Ciencias Naturales 5</td>
+    </tr>
+
+<!--SEPTIMO MODULO-->
+    <tr>
+      <td>12:00 - 13:00</td>
+      <td bgcolor="Orange">Formacion Socioemocional</td>
+      <td bgcolor="DarkTurquoise">Ingles 5</td>
+      <td bgcolor="PaleGreen">Ciencias Naturales 5</td>
+      <td bgcolor="Pink">PROG M4S2</td>
+      <td bgcolor="Pink">PROG M4S2</td>
+    </tr>
+
+<!--OCTAVO MODULO-->
+    <tr>
+      <td>13:00 - 14:00</td>
+      <td bgcolor="LightCoral">Matematicas</td>
+      <td bgcolor="LightCoral">Matematicas</td>
+      <td bgcolor="LightCoral">Matematicas</td>
+      <td bgcolor="LightCoral">Matematicas</td>
+      <td bgcolor="LightCoral">Matematicas</td>
+    </tr>
+
+  </table> <!-- Cierra la tabla -->
+
+</body> <!-- Cierra lo visible -->
+</html> <!-- Cierra todo -->
